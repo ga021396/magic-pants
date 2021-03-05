@@ -18,6 +18,7 @@ function Doc() {
         <br />
         <br />
         <br />
+        <p>ゲームに何かアイディアあったら：Twitch:windchi</p>
         <p>他のゲーム：</p>
         <div>
           <a href="https://ga021396.github.io/Sam1268/" target="_blank">
