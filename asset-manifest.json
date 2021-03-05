@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/magic-pants/static/css/main.969cde9b.chunk.css",
+    "main.js": "/magic-pants/static/js/main.98865f7c.chunk.js",
+    "main.js.map": "/magic-pants/static/js/main.98865f7c.chunk.js.map",
+    "runtime-main.js": "/magic-pants/static/js/runtime-main.b5f75e5b.js",
+    "runtime-main.js.map": "/magic-pants/static/js/runtime-main.b5f75e5b.js.map",
+    "static/js/2.54ac570a.chunk.js": "/magic-pants/static/js/2.54ac570a.chunk.js",
+    "static/js/2.54ac570a.chunk.js.map": "/magic-pants/static/js/2.54ac570a.chunk.js.map",
+    "static/js/3.7ec08708.chunk.js": "/magic-pants/static/js/3.7ec08708.chunk.js",
+    "static/js/3.7ec08708.chunk.js.map": "/magic-pants/static/js/3.7ec08708.chunk.js.map",
+    "index.html": "/magic-pants/index.html",
+    "static/css/main.969cde9b.chunk.css.map": "/magic-pants/static/css/main.969cde9b.chunk.css.map",
+    "static/js/2.54ac570a.chunk.js.LICENSE.txt": "/magic-pants/static/js/2.54ac570a.chunk.js.LICENSE.txt",
+    "static/media/game.scss": "/magic-pants/static/media/RB.a4b4a9a3.png",
+    "static/media/RED.5d34867a.png": "/magic-pants/static/media/RED.5d34867a.png",
+    "static/media/black.0ac050f4.png": "/magic-pants/static/media/black.0ac050f4.png",
+    "static/media/blue.dcc2a846.png": "/magic-pants/static/media/blue.dcc2a846.png",
+    "static/media/correct.62de66c5.mp3": "/magic-pants/static/media/correct.62de66c5.mp3",
+    "static/media/fail.3561b1d6.mp3": "/magic-pants/static/media/fail.3561b1d6.mp3",
+    "static/media/gray.ffb77e08.png": "/magic-pants/static/media/gray.ffb77e08.png",
+    "static/media/pants.409328cd.mp3": "/magic-pants/static/media/pants.409328cd.mp3",
+    "static/media/style.61720423.png": "/magic-pants/static/media/style.61720423.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5f75e5b.js",
+    "static/js/2.54ac570a.chunk.js",
+    "static/css/main.969cde9b.chunk.css",
+    "static/js/main.98865f7c.chunk.js"
+  ]
+}
