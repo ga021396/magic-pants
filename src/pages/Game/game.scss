@@ -7,14 +7,16 @@
   height: 100%;
   overflow: hidden;
   display: flex;
+  background: black;
 }
 
 .role-container {
-  width: 40%;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .RB {
@@ -32,15 +34,23 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-image: black;
+  animation: path 1s infinite;
+  .speedAnime {
+    animation: path 0.5s infinite;
+  }
 }
 
 .answer-container {
-  width: 60%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .answer-title {
+    font-size: 24px;
+  }
   .answer {
     width: 100%;
     display: flex;
@@ -55,5 +65,14 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+  }
+}
+
+@keyframes path {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
   }
 }

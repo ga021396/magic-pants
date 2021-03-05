@@ -20,7 +20,7 @@ export const scene = createReducer(0 as number).handleAction(
   }
 );
 
-export const message = createReducer("" as string).handleAction(
+export const message = createReducer(0 as number).handleAction(
   [fetchMessageAsync.success],
   (state: any, action: any) => {
     return action.payload;

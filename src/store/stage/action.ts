@@ -17,7 +17,7 @@ export const fetchMessageAsync = createAsyncAction(
   "FETCH_REQUEST",
   "FETCH_MESSAGE_SUCCESS",
   "FETCH_FAILURE"
-)<undefined, string, Error>();
+)<undefined, number, Error>();
 
 export const fetchLoading = (mask: boolean): any => async (
   dispatch: Dispatch<RootAction>,
@@ -33,7 +33,7 @@ export const fetchScene = (scene: number): any => async (
   dispatch(fetchSceneAsync.success(scene));
 };
 
-export const fetchMessage = (message: string): any => async (
+export const fetchMessage = (message: number): any => async (
   dispatch: Dispatch<RootAction>,
   getState: () => RootState
 ) => {
